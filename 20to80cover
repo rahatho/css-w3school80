@@ -1,3 +1,4 @@
+CSS 20% of 80%
 - Basic Selectors
 - Pseudo-classes and how to combine
 - Box Model
@@ -9,3 +10,20 @@
 What else? 
 
 IMO, if we know the above, that's 80% of it. Rest 20% is google search. No one remembers properties
+
+
+JS 20% of 80%
+
+JS is a very simple language. If you know what a callback is, you pretty much understand how JS works.
+
+Your 20% is the computing logic which is what JS is for. There are a few main features.
+
+Loops: for, while, array loop methods.
+
+Timers: timeout and interval.
+
+Promises and async/await.
+
+Event emitters.
+
+These are going to be the tools you use to build your app logic. You are going to fill them with different methods for your purpose to access data, manipulate and print. These methods are the rest 80% because there are way too many caveats. So don't try to learn them all at once. Google and look at sources as you go.
