@@ -15,18 +15,20 @@ This page will explain the most basic CSS selectors.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        p {
+        #para1 {
             text-align: center;
             color: red;
         }
     </style>
-    <title>CSS element selector</title>
+    <title>CSS id selector</title>
 </head>
 <body>
     <p>
-        Every paragraph will be affected by the style.
+        The id selector uses the id attribute of an HTML element to select a specific element.
     </p>
-    <p id="para1">Me too!</p>
-    <p>And me!</p>
+    <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+    <p>To select an element with a specific id, write a hash(#) charachter, followed by the id of the element.</p>
+    <p id="para1">Hello World!</p>
+    <p>This paragraph is not affected by the style</p>
 </body>
 </html>
