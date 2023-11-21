@@ -15,24 +15,23 @@ This page will explain the most basic CSS selectors.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        p.center {
+        * {
             text-align: center;
-            color: red;
+            color: blue;
         }
-        p.large {
-            font-size: 300%;
-        }
+       
     </style>
-    <title>CSS element class selector </title>
+    <title>CSS Universal selector </title>
 </head>
 <body>
-    <h1>The CSS element class Selector</h1>
+    <h1>The CSS univarsal selector</h1>
     <p>
-        HTML elements can also refer to more than one class.
+        The universal selector (*) selects all HTML elements on the page.
     </p>
     <p>To select an elements with a specific class, write a period (.) character, followed by the class name.</p>
-    <h1 class="center">This heading will not be affected.</h1>
-    <p class="center">This paragraph will be red and center-aligned paragraph.</p>
-    <p class="center large">This paragraph will be red, center-align, and in a large font-size.</p>
+    <p>Every element on the page will be affected by the style.</p>
+
+    <p id="para1">Me too!</p>
+    <p>And me!</p>
 </body>
 </html>
