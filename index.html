@@ -15,23 +15,22 @@ This page will explain the most basic CSS selectors.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        * {
+        h1, h2, p {
             text-align: center;
-            color: blue;
+            color: red;
         }
        
     </style>
-    <title>CSS Universal selector </title>
+    <title>CSS Grouping  selector </title>
 </head>
 <body>
-    <h1>The CSS univarsal selector</h1>
+    <h1>The CSS Grouping selector</h1>
     <p>
-        The universal selector (*) selects all HTML elements on the page.
+        The grouping selector selects all the HTML elements with the same style definitions.
     </p>
-    <p>To select an elements with a specific class, write a period (.) character, followed by the class name.</p>
-    <p>Every element on the page will be affected by the style.</p>
-
-    <p id="para1">Me too!</p>
-    <p>And me!</p>
+    <p>Look at the following CSS code (the h1, h2, and p elements have the same style definitions):</p>
+    <h1>Hello World!</h1>
+    <h2>Smaller heading!</h2>
+    <p>This is a paragraph.</p>
 </body>
 </html>
