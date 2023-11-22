@@ -15,12 +15,12 @@ This page will explain the most basic CSS selectors.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        div p {
+        div > p {
             background-color: yellow;
         }
        
     </style>
-    <title>CSS Combinators</title>
+    <title>CSS Combinators child selector</title>
 </head>
 <body>
     <h1>CSS Combinators</h1>
@@ -35,22 +35,17 @@ This page will explain the most basic CSS selectors.-->
         <li>adjacent sibling selector (+)</li>
         <li>general sibling selector (~)</li>
     </ul>
-    <h2>Descendant Selector</h2>
-
-    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
-
-    <p>The following example selects all p elements inside div elements:</p>
-    
+    <h2>Child Selector (>)</h2>
+    <p>The child selector selects all elements that are the children of a specified element.</p>
+    <p>The following example selects all p elements that are children of a div element:</p>
     <div>
         <p>Paragraph 1 in the div.</p>
         <p>Paragraph 2 in the div.</p>
-        <section>
-            <p>Paragraph 3 in the div.</p>
-        </section>
+        <section><p>Paragraph 3 in the div.</p></section>
+        <p>Paragraph 4 in the div.</p>
     </div>
-
-    <p>Paragraph 4 not in the div.</p>
-    <p>Paragraph 5 not in the div.</p>
+    <p>Paragraph 5 Not in the div.</p>
+    <p>Paragraph 6 Not in the div.</p>
   
 
 </body>
