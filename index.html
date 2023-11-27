@@ -15,38 +15,20 @@ This page will explain the most basic CSS selectors.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        div > p {
-            background-color: yellow;
+        p i:first-child {
+            color: blue;
         }
        
     </style>
-    <title>CSS Combinators child selector</title>
+    <title>CSS Pseudo-class first i tag in all p tag</title>
 </head>
 <body>
-    <h1>CSS Combinators</h1>
-    <p>
-        A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
-    </p>
-    <p>There are four different combinators in CSS:</p>
+    <h2>Match the first i tag element i all p tag elements</h2>
 
-    <ul>
-        <li>descendant selector (space)</li>
-        <li>child selector (>)</li>
-        <li>adjacent sibling selector (+)</li>
-        <li>general sibling selector (~)</li>
-    </ul>
-    <h2>Child Selector (>)</h2>
-    <p>The child selector selects all elements that are the children of a specified element.</p>
-    <p>The following example selects all p elements that are children of a div element:</p>
-    <div>
-        <p>Paragraph 1 in the div.</p>
-        <p>Paragraph 2 in the div.</p>
-        <section><p>Paragraph 3 in the div.</p></section>
-        <p>Paragraph 4 in the div.</p>
-    </div>
-    <p>Paragraph 5 Not in the div.</p>
-    <p>Paragraph 6 Not in the div.</p>
-  
+    <p>In the following example, the selector matches the first i tag element in all p tag elements:</p>
+
+    <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+    <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
 
 </body>
 </html>
